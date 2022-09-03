@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+
+
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.poster {
+  height: 180px;
+  width: 150px;
+  border-radius: 7px;
+}
+
+.MovieCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.myMovieList {
+  display: flex;
+}
